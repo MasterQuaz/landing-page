@@ -1,30 +1,92 @@
 body {
 color: #F9FAF8;
+display: flex;
+flex-direction: column;
+margin: 0;
+padding: 0;
 }
 
 img {
     height: auto;
-    width: 200px;
+    width: 100px;
+}
+
+a, .one-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 button {
     background: #3882F6;
+    display: flex;
+    flex: 0;
 }
 
 .header {
     background: #1F2937;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 150px;
+}
+
+.logo {
+    font-size: 24px;
+    margin-right: auto;
 }
 
 .section-one {
     background: #1F2937;
+    display: flex;
+    padding: 100px 150px;
+    gap: 20px;
+}
+
+.one-title {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .section-two {
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.two-title {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.cards {
+    display: flex;
+    margin: 20px 0 75px;
+    gap: 10px;
 }
 
 .section-three {
     background: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px 75px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
 }
 
 .section-four {
@@ -33,8 +95,18 @@ button {
 
 .container {
     background: #3882F6;
+    display: flex;
+    padding: 30px 100px;
+    margin: 75px 150px;
+}
+
+.mini-container {
+    margin-right: auto;
 }
 
 .footer {
     background: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
