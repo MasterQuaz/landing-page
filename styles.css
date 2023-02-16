@@ -1,13 +1,22 @@
 body {
+color: #F9FAF8;
+}
 
+img {
+    height: auto;
+    width: 200px;
+}
+
+button {
+    background: #3882F6;
 }
 
 .header {
-    
+    background: #1F2937;
 }
 
 .section-one {
-
+    background: #1F2937;
 }
 
 .section-two {
@@ -15,13 +24,17 @@ body {
 }
 
 .section-three {
-
+    background: #E5E7EB;
 }
 
 .section-four {
 
 }
 
+.container {
+    background: #3882F6;
+}
+
 .footer {
-    
+    background: #1F2937;
 }
