@@ -8,7 +8,8 @@ padding: 0;
 
 img {
     height: auto;
-    width: 100px;
+    width: 125px;
+    border-radius: 25px;
 }
 
 a, .one-text {
@@ -19,8 +20,8 @@ a, .one-text {
 
 button {
     background: #3882F6;
-    display: flex;
-    flex: 0;
+    border-radius: 25px;
+    padding: 5px 10px;
 }
 
 .header {
@@ -64,7 +65,12 @@ button {
 .cards {
     display: flex;
     margin: 20px 0 75px;
-    gap: 10px;
+    gap: 20px;
+}
+
+.card {
+    width: 125px;
+    text-align: center;
 }
 
 .section-three {
@@ -89,12 +95,9 @@ button {
     padding: 10px 30px;
 }
 
-.section-four {
-
-}
-
 .container {
     background: #3882F6;
+    border-radius: 25px;
     display: flex;
     padding: 30px 100px;
     margin: 75px 150px;
@@ -102,6 +105,11 @@ button {
 
 .mini-container {
     margin-right: auto;
+}
+
+.four-title {
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .footer {
